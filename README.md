@@ -46,7 +46,5 @@ For detailed documentation and examples, refer to the official LangChain documen
 
 ## License
 
-MapReduceDocumentChain is open-source software released under the [LICENSE_NAME] License. See the LICENSE file for details.
+MapReduceDocumentChain is open-source software released under the [Langchain_license] License. 
 
----
-**Note:** Replace [LICENSE_NAME] with the actual license name used for the MapReduceDocumentChain module.
