@@ -44,7 +44,7 @@ class Chain :
         """ChatOpenAI lazy read-only property."""
         if self._chat is None:
             self._chat = ChatOpenAI(
-                api_key='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',
+                api_key='',
                 cache=True,
                 max_retries=10,
                 model="gpt-4-1106-preview",
@@ -57,7 +57,7 @@ class Chain :
         """ChatOpenAI lazy read-only property."""
         if self._chat is None:
             self._chat = ChatOpenAI(
-                api_key='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',
+                api_key='',
                 cache=True,
                 max_retries=10,
                 model="gpt-4-1106-preview",
@@ -149,7 +149,7 @@ class Refine(Chain):
 
         #Overriding chat
         _chat = ChatOpenAI(
-            api_key='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',
+            api_key='',
             cache=True,
             max_retries=10,
             model="gpt-4-1106-preview",
@@ -243,7 +243,7 @@ class Stuff(Chain):
         doc_prompt = PromptTemplate.from_template("{page_content}")
 
         _chat = ChatOpenAI(
-            api_key='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',
+            api_key='',
             cache=True,
             max_retries=10,
             model="gpt-4-1106-preview",
